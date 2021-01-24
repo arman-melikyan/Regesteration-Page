@@ -1,0 +1,30 @@
+.Table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    margin: 15px 0 0 0;
+    padding: 20px;
+}
+  
+.Table td,
+.Table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+  
+.Table tr:nth-child(even) {
+    background-color: #333;
+}
+  
+.Table tr:hover {
+    background-color: #ddd;
+    color: black;
+}
+  
+.Table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgba(26, 25, 25, 0.932);
+    color: white;
+}

@@ -1,16 +1,14 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-import Navigation from './components/navigation/navigation';
-import Home  from './components/home/home';
-import ChakBox from './components/chakBox';
+import Navigation from '../components/navigation/navigation';
+import Home  from '../modules/containers/Form.container';
+import ChakBox from '../modules/containers/SubmitionPageContainer';
 import './index.css';
-
 
 
 const App = () => {
     return (
-        <div>
-            
+        <div>           
           <BrowserRouter>
               <Navigation />
                 <Switch>
