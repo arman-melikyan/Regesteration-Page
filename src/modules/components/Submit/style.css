@@ -28,3 +28,9 @@
     background-color: rgba(26, 25, 25, 0.932);
     color: white;
 }
+
+.Selection {
+    height: 86.5vh;
+    padding: 50px;
+    background-color: rgb(67, 10, 121);
+}

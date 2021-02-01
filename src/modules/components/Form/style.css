@@ -8,3 +8,14 @@
     background-color: #333;
     color: white;
 }
+
+.Form {
+    margin: 30px 50px 0 350px;
+    width: 50%;
+    justify-content: center;
+    display:grid;
+    align-items: center;
+    text-align: center;
+    background-color: blueviolet;
+    box-shadow: 5px 5px 5px 5px rgb(66, 66, 66);
+}

@@ -1,12 +1,11 @@
 import React from "react";
 import PropTypes from "prop-types";
-
 import "./style.css";
 
 const Submit = ({ users, user, setUser, onChange }) => {
   return (
-    <div>
-      <div>
+    <div className="Selection">
+      <div> 
         <select onChange={(e) => onChange(e)}>
           <option>Select</option>
           {users?.users.map((item, i) => {

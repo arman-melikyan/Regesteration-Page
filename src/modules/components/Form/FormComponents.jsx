@@ -5,7 +5,7 @@ import "./style.css";
 
 const Form = ({ register, onSubmit }) => {
   return (
-    <div>
+    <div className="Form">
       <h1>User Registration</h1>
       <p>First Name</p>
       <input
@@ -13,7 +13,6 @@ const Form = ({ register, onSubmit }) => {
         name="firstName"
         ref={register}
         placeholder="FirstName..."
-        required
       />
 
       <p>Last Name</p>
@@ -22,23 +21,15 @@ const Form = ({ register, onSubmit }) => {
         name="lastName"
         ref={register}
         placeholder="LastName..."
-        required
       />
       <p>Email</p>
-      <input
-        type="email"
-        name="email"
-        ref={register}
-        placeholder="Email..."
-        required
-      />
+      <input type="email" name="email" ref={register} placeholder="Email..." />
       <p>Phone Number</p>
       <input
         type="text"
         name="number"
         ref={register}
         placeholder="PhoneNumber..."
-        required
       />
       <p>Password</p>
       <input
@@ -46,7 +37,6 @@ const Form = ({ register, onSubmit }) => {
         name="password"
         ref={register}
         placeholder="Password..."
-        required
       />
       <p>Gender</p>
       <select name="gender" ref={register} defaultValue="Select Gender">
